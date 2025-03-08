@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Iansui&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Noto+Sans+JP:wght@100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playwrite+IN:wght@100..400&family=Playwrite+TZ+Guides&family=Playwrite+VN:wght@100..400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.grand
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 360px;
+}
+
+
+.parent .grand .num
+{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+.parent .grand .ji
+{
+    font-size: 16px;
+    font-weight: 400;
+    border-left: 1px solid blue;
+    padding-left: 20px;
+}
+
+
+.parent .date
+{
+
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.parent .fa-calendar-days
+{
+  color: rgba(50, 103, 255, 1);
+}
+
+
+.parent1
+{
+    /* border: 1px solid black; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.parent1 .image
+{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 350px;
+    background-image: url("../css/dental.png");
+    /* background-size: cover; */
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.parent1 ul
+{
+    font-weight: bold;
+    display: flex;
+    list-style-type: none;
+    /* border: 1px solid black; */
+    width: 400px;
+    justify-content: space-evenly;
+    font-size: 17px;
+}
+
+.parent1 ul .fa-arrow-down
+{
+    font-size: 10px;
+}
+
+
+.parent1 .button
+{
+    padding: 22px 28px;
+    background: rgba(50, 103, 255, 1);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.parent1 .icon
+{
+    display: none;
+}
+
+
+.parent4
+{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+.parent4 .child1
+{
+    /* border: 1px solid black; */
+    background-color: rgba(135, 207, 235, 0.164);
+}
+
+
+.parent4 .child button
+{
+    margin-top: 100px;
+    /* margin-left: 100px; */
+    font-weight: bold;
+    color: rgba(50, 103, 255, 1);
+}
+
+
+.parent4 .child1 .image1
+{
+    height: 800px;
+    width: 600px;
+    background-image: url("../css/doctor.png");
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.parent4 .child1 .image1 .bord
+{
+   /* border: 1px solid black; */
+   /* height: 100px; */
+   width: 250px;
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  padding: 20px;
+  background-color: white;
+}
+
+
+
+
+
+
+.parent4 .child1 .image1 .bord .parent5
+{
+    /* border: 1px solid black; */
+    height: 60px;
+    /* width: 40px; */
+    width: 140px;
+    display: flex;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.parent4 .child1 .image1 .bord .parent5 .grand3
+{
+    display: flex;
+}
+
+
+.parent4 .child1 .image1 .bord .parent5 .grand3 .profile1
+{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-image: url("../css/profile1.jpg");
+    background-size: contain;
+}
+
+.parent4 .child1 .image1 .bord .parent5 .grand3 .profile2
+{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-image: url("../css/profile3.jpg");
+    background-size: contain;
+}
+.parent4 .child1 .image1 .bord .parent5 .grand3 .profile3
+{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-image: url("../css/profile2.jpg");
+    background-size: contain;
+}
+
+.parent4 .child1 .image1 .bord .parent5 .grand4
+{
+    display: flex;
+    align-items: center;
+}
+
+.parent4 .child1 .image1 .bord .parent5 .grand4 .bord1
+{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+}
+
+
+
+.parent4 .child1 .image1 .bord .parent5 .grand4 .num
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.parent4 .child1 .image1 .bord .parent5 .grand4 .bord1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 103, 255, 1);
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+
+.parent4 .child1 .image1 .bord .satisfied
+{
+    margin-top: 5px;
+}
+
+.parent4 .child1 .image1 .bord .star
+{
+    margin-top: 5px;
+    color: yellow;
+}
+
+.parent4 .child1 .image1 .bord .star1
+{
+  color: grey;
+}
+
+
+.parent4 .child .btn
+{
+    padding: 10px;
+    color: rgba(50, 103, 255, 1);;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+
+.parent4 .child .help
+{
+    font-size: 68px;
+    font-weight: 800px;
+    width: 490px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 10px;
+
+}
+
+.parent4 .child .lorem
+{
+    margin-top: 33px;
+    width: 490px;
+    font-size: 18px;
+    color: grey;
+}
+
+.cont
+{
+    height: 130px;
+    /* width: 200px; */
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 150px;
+    width: 75%;
+    left: 5%;
+    padding: 20px;
+    background-color: white;
+}
+
+.cont .parent8
+{
+   
+    display: flex;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+.cont .parent8 .fa-solid
+{
+    color:  rgba(50, 103, 255, 1);
+}
+
+.cont .parent8 .phone
+{
+    margin-left: 140px;
+}
+
+.cont .parent8 .Date
+{
+    margin-left: 140px;
+}
+
+
+.cont .parent9
+{
+   margin-top: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cont .parent9 input
+{
+    height: 50px;
+    width: 230px;
+}
+
+.cont .parent9 .btn1
+{
+    padding: 20px 50px;
+    background-color:  rgba(50, 103, 255, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+
+.container3
+{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+
+
+.container3 .grand5
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container3 .grand5 .image4
+{
+    /* border: 1px solid black; */
+    height: 70px;
+    width: 60px;
+    background-image: url("../css/image1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(135, 207, 235, 0.233);
+}
+
+
+.container3 .grand5 .aff
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.container3 .grand5 .lo
+{
+    color: grey;
+    margin-top: 5px;
+}
+
+
+
+
+.container3 .grand6
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container3 .grand6 .image4
+{
+    /* border: 1px solid black; */
+    height: 70px;
+    width: 60px;
+    background-image: url("../css/image2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(135, 207, 235, 0.233);
+}
+
+
+.container3 .grand6 .aff
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.container3 .grand6 .lo
+{
+    color: grey;
+    margin-top: 5px;
+}
+
+
+
+
+
+.container3 .grand7
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container3 .grand7 .image4
+{
+    /* border: 1px solid black; */
+    height: 70px;
+    width: 60px;
+    background-image: url("../css/image3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(135, 207, 235, 0.233);
+}
+
+
+.container3 .grand7 .aff
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.container3 .grand7 .lo
+{
+    color: grey;
+    margin-top: 5px;
+}
+
+
+
+.container4
+{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.container4 .child3 .image
+{
+    background-image: url("../css/doctor1.png");
+    height: 900px;
+    width: 570px;
+    position: relative;
+}
+
+.container4 .child3  .bord
+{
+    position: absolute;
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 100px;
+    top: 35%;
+    left: 5%;
+    border-radius: 50%;
+    background-image: url("../css/inside1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.container4 .child4 .more
+{
+  padding: 10px 20px;
+  color:  rgba(50, 103, 255, 1);
+  margin-top: 40px;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid grey;
+
+}
+
+
+
+.container4 .child4 .best
+{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 30px;
+
+}
+
+.container4 .child4 .lor
+{
+    margin-top: 20px;
+    color: grey;
+    width: 600px;
+}
+
+
+
+
+.container4 .child4 .lor1
+{
+    margin-top: 40px;
+    color: grey;
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:700px)
+{
+
+    .parent
+    {
+        display: none;
+    }
+
+    .parent1
+    {
+        flex-direction: column;
+        position: relative;
+       
+
+    }
+
+    .parent1 .image
+    {
+        margin-right: 170px;
+
+    }
+
+    .parent1 ul
+    {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        display: none;
+    }
+
+    .parent1 ul li
+    {
+        margin-bottom: 10px;
+    }
+
+    .parent1 .icon
+    {
+        position: absolute;
+        display: block;
+        right: 20px;
+        font-size: 30px;
+    }
+
+    .parent1 .button
+    {
+        display: none;
+    }
+
+    .parent1 ul.showmenu {
+        display: flex; /* Show menu when toggled */
+    }
+
+    .parent4
+    {
+        flex-direction: column;
+    }
+
+    .container3
+    {
+        flex-direction: column;
+    }
+
+
+    .container4
+    {
+        flex-direction: column;
+    }
+
+
+}
+
+
+
